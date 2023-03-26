@@ -3,9 +3,9 @@
 
 int main()
 {
-    float vis, vss, vts, vqs, vqus, vcr, dscm, acrh, idd, idc;   //acrh = acr�scimo se homem
-    char sx, grg, uct;                      //dscm = Desconto se mulher
-
+    float vis, vss, vts, idd, idc, vcr;   //vis = Valor inicial do seguro   vss = Valor Secundário do seguro    
+    char sx, grg, uct;                    // idd = idade do cliente   idc = idade do carro   sx = sexo
+                                          // vcr = valor do carro uct = Usa o carro para trabalhar vts = Valor terciário do seguro
     printf("Digite o Valor do carro: \n");
     scanf("%f", &vcr);
     getchar();
